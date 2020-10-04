@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+	<h1 id="title">Hello World</h1>
+</body>
+
+<script>
+    setInterval(function () {
+        document.getElementById('title').style.color = "#"+((1<<24)*Math.random()|0).toString(16);
+    }, 1000);
+</script>
+</html>
